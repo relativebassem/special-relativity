@@ -1,0 +1,81 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20%;
+    justify-content: center;
+    align-items: center;
+}
+#formulas{
+    align-self: baseline;
+    line-height: 150%;
+    font-size: 130%;
+}
+#content p, #content-lor-fact p{
+    text-align: center;
+    line-height: 150%;
+    font-size: 130%;
+}
+#content, #content-lor-fact{
+    display: flex;
+    flex-direction: column;
+}
+#content img{
+    align-self: center;
+    width: 80%;
+    height: auto;
+}
+#content-lor-fact img{
+    align-self: center;
+    width: auto;
+    height: auto;
+}
+
+#content-length{
+    display: flex;
+    flex-direction: row;
+}
+#content-length img{
+    align-self: center;
+    width: 60%;
+    height: auto;
+}
+
+#content-length p{
+    text-align: center;
+    line-height: 150%;
+    font-size: 130%;
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    width: 90px;
+    display: block;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 125%;
+    padding: 1% 2%;
+    text-decoration: none;
+
+}
+
+#img-sim{
+    display: flex;
+}
+#img-sim img{
+    width: 50%;
+}
+#img-sim-desc{
+    display: flex;
+    justify-content: space-between;
+
+}
+#img-sim-desc p{
+    font-size: 90%;
+}
