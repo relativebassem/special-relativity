@@ -33,6 +33,11 @@ main{
     height: auto;
 }
 
+#content-length-len{
+    display: flex;
+    flex-direction: column;
+}
+
 #content-length{
     display: flex;
     flex-direction: row;
@@ -43,7 +48,7 @@ main{
     height: auto;
 }
 
-#content-length p{
+#content-length p, #content-length-len p{
     text-align: center;
     line-height: 150%;
     font-size: 130%;
@@ -54,7 +59,6 @@ footer{
     justify-content: space-between;
 }
 footer a{
-    width: 90px;
     display: block;
     background-color: orange;
     border: none;
